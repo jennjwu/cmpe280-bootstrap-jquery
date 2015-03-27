@@ -7,6 +7,10 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var bigdata = require('./routes/bigdata');
+var iot = require('./routes/iot');
+var management = require('./routes/management');
+var locations = require('./routes/locations');
 
 var app = express();
 
@@ -24,6 +28,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/bigdata', bigdata);
+app.use('/iot', iot);
+app.use('/management', management);
+app.use('/locations', locations);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
