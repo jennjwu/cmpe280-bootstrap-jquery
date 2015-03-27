@@ -1,0 +1,17 @@
+
+<!--include header and nav bar from templates -->
+<% var title = "Post New User"; %>
+<%- include partial_header.ejs %>
+
+<form action="/users/new" method="post">
+    First name: <input type="text" name="fname"/>
+    Last name: <input type="text" name="lname"/>
+    Email: <input type="text" name="email"/>
+    <input type="submit" value="Submit"/>
+</form>
+
+
+
+<!--include footer from templates -->
+<% var jspath = ""; %>
+<%- include partial_footer.ejs %>
