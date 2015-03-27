@@ -4,3 +4,16 @@
  * Yulin Ye
  */
 
+footer {
+    align-content: center;
+    padding-top: 19px;
+    margin-top: 50px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.text-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
