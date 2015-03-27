@@ -14,7 +14,7 @@ router.post('/new', function (req, res) {
     console.log("processing");
 
     //accept form data
-    console.log(req);
+    console.log(req.body);
 
     var post = req.body;
     var query = conn.query('INSERT INTO users SET ?', post, function (err, result) {
