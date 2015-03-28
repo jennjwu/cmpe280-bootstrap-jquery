@@ -11,6 +11,7 @@ var bigdata = require('./routes/bigdata');
 var iot = require('./routes/iot');
 var management = require('./routes/management');
 var locations = require('./routes/locations');
+var mobile = require('./routes/mobile');
 
 var app = express();
 
@@ -32,6 +33,7 @@ app.use('/bigdata', bigdata);
 app.use('/iot', iot);
 app.use('/management', management);
 app.use('/locations', locations);
+app.use('/mobile', mobile);
 
 
 // catch 404 and forward to error handler

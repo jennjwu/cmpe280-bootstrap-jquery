@@ -5,7 +5,8 @@
  */
 
 .navbar {
-    margin-bottom: 0px;
+    margin: 0 auto;
+    width: 98%;
 }
 
 footer {
@@ -18,35 +19,52 @@ footer {
 
 .text-center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1% auto;
 }
 
 
 /*carousel styling*/
 .carousel {
+    margin: 0 auto;
+    width: 98%;
     height: 400px;
     overflow: hidden;
 }
 
 .carousel-caption {
     top: 5px;
+    text-shadow: 2px 2px 9px black;
 }
 
-/*.carousel .item {*/
-    /*-webkit-transition: opacity 1s;*/
-    /*-moz-transition: opacity 1s;*/
-    /*-ms-transition: opacity 1s;*/
-    /*-o-transition: opacity 1s;*/
-    /*transition: opacity 1s;*/
-/*}*/
-/*.carousel .active.left, .carousel .active.right {*/
-    /*left:0;*/
-    /*opacity:0;*/
-    /*z-index:2;*/
-/*}*/
-/*.carousel .next, .carousel .prev {*/
-    /*left:0;*/
-    /*opacity:1;*/
-    /*z-index:1;*/
-/*}*/
+/*modal styling*/
+.modal-dialog {
+    margin-top: 20%;
+}
+
+/*mgmt page*/
+div.row.header{
+    background: #2c3150;
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 45px;
+}
+
+div#news, div#executive {
+    border: 2px solid #2c3150;
+    border-radius: 15px;
+}
+
+div#news div.row.content{
+    padding: 15px;
+}
+
+#map1,
+#map2 {
+    height: 400px;
+    margin: 10px;
+    padding: 0px
+}
+.site {
+    color: #18bc9c
+}
