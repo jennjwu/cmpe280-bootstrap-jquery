@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET mobile page. */
+/* GET business process page. */
 router.get('/', function(req, res, next) {
-    res.render('mobile');
+    res.render('busprocess');
 });
 
 module.exports = router;

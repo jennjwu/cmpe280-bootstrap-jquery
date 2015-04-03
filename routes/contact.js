@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET mobile page. */
+/* GET contact page. */
 router.get('/', function(req, res, next) {
-    res.render('mobile');
+    res.render('contact');
 });
 
 module.exports = router;
