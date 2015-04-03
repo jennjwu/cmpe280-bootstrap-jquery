@@ -12,6 +12,9 @@ var iot = require('./routes/iot');
 var management = require('./routes/management');
 var locations = require('./routes/locations');
 var mobile = require('./routes/mobile');
+var contact = require('./routes/contact');
+var busprocess = require('./routes/busprocess');
+var code = require('./routes/code');
 
 var app = express();
 
@@ -34,6 +37,9 @@ app.use('/iot', iot);
 app.use('/management', management);
 app.use('/locations', locations);
 app.use('/mobile', mobile);
+app.use('/contact', contact);
+app.use('/busprocess', busprocess);
+app.use('/code', code);
 
 
 // catch 404 and forward to error handler

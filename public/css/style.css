@@ -30,6 +30,13 @@ footer {
     overflow: hidden;
 }
 
+.carousel .carousel-inner img {
+    min-height: 400px;
+    min-width: 500px;
+    width: auto;
+    overflow: hidden;
+}
+
 .carousel-caption {
     top: 5px;
     text-shadow: 2px 2px 9px black;
@@ -65,7 +72,6 @@ div#news div.row.content{
     margin: 10px;
     padding: 0px
 }
-
 
 .site {
     color: #18bc9c
