@@ -26,6 +26,14 @@ footer {
 /*carousel styling*/
 .carousel {
     margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel .carousel-inner img {
+    min-height: 400px;
+    min-width: 500px;
+    width: auto;
     overflow: hidden;
 }
 
