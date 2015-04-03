@@ -48,3 +48,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+# test environment files on Yulin's PC
+server.js
