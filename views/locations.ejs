@@ -4,11 +4,36 @@
 
 <!--your page content here-->
 <div class="container">
-    <h3>Locations Page</h3>
+    <h2 class="text-center">Locations</h2>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h4>Centers for Global Software Development & Learning</h4>
+            <h4 class="site">San Jose</h4>
+            <p> 1 Washington Sq</p>
+            <p> San Jose, CA 95192</p>
+            <div id="map1">
+
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <h4>Centers for CTO Office</h4>
+            <h4 class="site">San Francisco</h4>
+            <p> 333 Turk St</p>
+            <p> San Francisco, CA 94102 </p>
+            <div id="map2">
+
+            </div>
+        </div>
+
+    </div>
 
 </div>
 
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT32xVCkqxlZQz5DQly-1-6j7RlsouvM8"></script>
 <!--include footer from templates -->
-<% var jspath = ""; %>
+<% var jspath = "js/gmaps.js"; %>
 <%- include partial_footer.ejs %>
