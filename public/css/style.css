@@ -78,7 +78,10 @@ div#news div.row.content{
 }
 
 
-/* big-data page */
-.side-menu {
-    margin-top: 100px;
+.rd-pt-100 {
+    padding-top: 100px;
+}
+
+.rd-pt-20 {
+    padding-top: 20px;
 }
